@@ -1,0 +1,55 @@
+body {
+	background-color: #688C4F
+}
+
+div {
+	border-style: solid;
+	border-radius: 10px;
+    text-align: center;
+    height: 400px;
+}
+
+div.wrapper {
+    border-style: none;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+div.sortbox {
+}
+
+
+div.bottombox {
+    border-style: none;
+	width: 100%;
+	height: 200px;
+}
+
+div.wordbox {
+    height: 50px;
+    width: 100px;
+    border-radius:10px;
+    background-color: #5C95A5;
+    border-style: solid;
+    border-color: #903B2A;
+    display: inline-block;
+}
+
+div.keywordbox {
+    height: 50px;
+    width: 100px;
+    border-radius:10px;
+    background-color: #E0CB7C;
+    border-style: solid;
+    border-color: #903B2A;
+    display: inline-block;
+}
+
+p {
+	font-size: 150%;
+	text-align: center;
+	line-height: 4px;
+}
